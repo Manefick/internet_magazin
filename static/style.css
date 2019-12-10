@@ -6,11 +6,11 @@ html, body{
     padding-top: 10%;
 }
 .general-container{
-    background: url("img/pex.jpeg");
+    background: url("img/photo_backgrounds_textures_app04.jpg");
     height: 100%;
 }
 .title{
-    color: coral;
+    color: white;
     text-align: center;
     font-weight: inherit;
     line-height: revert;
