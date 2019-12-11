@@ -1,0 +1,18 @@
+html, body{
+    height: 100%;
+    max-height: 100%;
+}
+.top-container{
+    padding-top: 10%;
+}
+.general-container{
+    background: url("img/photo_backgrounds_textures_app04.jpg");
+    height: 100%;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-weight: inherit;
+    line-height: revert;
+
+}

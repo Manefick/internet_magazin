@@ -1,18 +1,26 @@
 html, body{
     height: 100%;
     max-height: 100%;
+    font-family: Roboto, sans-serif;
+    background-color: #edeef0;
 }
-.top-container{
-    padding-top: 10%;
-}
-.general-container{
-    background: url("img/photo_backgrounds_textures_app04.jpg");
-    height: 100%;
-}
-.title{
-    color: white;
-    text-align: center;
-    font-weight: inherit;
-    line-height: revert;
 
+.selection-top{
+    margin: 20px;
+}
+
+.product-item{
+    height: 360px;
+    background-color: white;
+    border: 1px solid lightgray;
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add-to-card-btn{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
 }
