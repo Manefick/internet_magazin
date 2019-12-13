@@ -20,7 +20,7 @@ class Product(models.Model):
 
 class ProductImage(models.Model):
     product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.PROTECT)
-    image = models.ImageField(upload_to='product_image')
+    image = models.ImageField(upload_to='static/media/product_image')
     is_active = models.BooleanField(default=True)
     is_mail = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
